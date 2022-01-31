@@ -1,7 +1,4 @@
 def call(){
-//   stage(){
-//     //Escribir directamente el código del stage, sin agregarle otra clausula de Jenkins.
-//   }
     stage("Paso 1: Compliar"){
         sh "echo 'Compile Code!'"
         // Run Maven on a Unix agent.
